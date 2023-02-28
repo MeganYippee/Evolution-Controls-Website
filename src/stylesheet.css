@@ -1,0 +1,32 @@
+body {
+   margin: 0 auto;
+}
+a {
+   color: black;
+   text-decoration: none;
+}
+.menu {
+   padding: 25px 70px;
+   margin: 30px;
+}
+.bioBody {
+   margin: 0 auto;
+   max-width: 650px;
+}
+.logo {
+   display: block;
+   margin: 10px auto;
+   max-width: 150px;
+}
+.bio {
+   font-size: 18px;
+   padding: 20px;
+   max-width: 600px;
+}
+.footer {
+   background-color: black;
+   color: white;
+   padding: 70px;
+   margin: 0 auto;
+   text-align: center;
+}
