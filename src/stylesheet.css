@@ -5,23 +5,35 @@ a {
    color: black;
    text-decoration: none;
 }
+.photo-carousel {
+   text-align: center;
+   margin: 0 auto;
+   max-width: 1000px;
+}
+.menuLogo {
+   max-width: 200px;
+}
 .menu {
-   padding: 25px 70px;
-   margin: 30px;
+   background-color: #e7e7e7;
+   padding: 10px 70px;
+   margin: 10px;
 }
 .bioBody {
-   margin: 0 auto;
+   margin: 60px auto;
    max-width: 650px;
 }
 .logo {
    display: block;
-   margin: 10px auto;
+   margin: 50px auto;
    max-width: 150px;
 }
 .bio {
    font-size: 18px;
-   padding: 20px;
-   max-width: 600px;
+}
+.red {
+   background-color: red;
+   padding: 15px;
+   margin-top: 50px;
 }
 .footer {
    background-color: black;
