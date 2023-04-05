@@ -4,7 +4,12 @@ body {
 }
 a {
    color: black;
+   text-align: center;
    text-decoration: none;
+}
+a:hover {
+   color: red;
+   transition: ease-in-out 200ms;
 }
 h1 {
    text-align: center;
@@ -25,9 +30,12 @@ li {
    padding: 10px 70px;
    margin: 10px;
 }
+menu:hover {
+   background-color: aliceblue;
+}
 .bioBody {
    margin: 60px auto;
-   max-width: 650px;
+   max-width: 700px;
 }
 .logo {
    display: block;
@@ -37,10 +45,10 @@ li {
 .bio {
    font-size: 18px;
 }
-.red {
+.footer-bar {
    background-color: red;
-   padding: 15px;
-   margin-top: 50px;
+   margin-top: 100px;
+   padding: 10px;
 }
 .footer {
    background-color: black;
@@ -51,4 +59,10 @@ li {
 }
 .distributor-bio {
    max-width: 380px;
+}
+.bsr-logo {
+   padding-top: 30px;
+}
+.canadian-distributor {
+   padding-top: 65px;
 }
