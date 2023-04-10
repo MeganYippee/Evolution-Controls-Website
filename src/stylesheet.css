@@ -8,31 +8,44 @@ a {
    text-decoration: none;
 }
 a:hover {
-   color: red;
+   color: #ff0000;
    transition: ease-in-out 200ms;
 }
+p {
+   text-align: center;
+   font-size: 18px;
+}
 h1 {
+   font-family: "Noto Sans JP", sans-serif;
+   font-weight: 700;
    text-align: center;
 }
 li {
    padding: 6px;
    list-style: none;
+   max-width: 550px;
 }
+
 .photo-carousel {
    text-align: center;
    margin: 0 auto;
-   max-width: 1000px;
+   max-width: 85%;
 }
 .menuLogo {
    max-width: 200px;
 }
 .menu {
-   background-color: #e7e7e7;
-   padding: 10px 70px;
+   border-radius: 10px;
+   font-family: "Noto Sans JP", sans-serif;
+   padding: 30px 70px;
    margin: 10px;
 }
-menu:hover {
-   background-color: aliceblue;
+.menu:hover {
+   background-color: #e7e7e7;
+   transition: ease-in-out 200ms;
+}
+.menu-title {
+   padding-top: 10px;
 }
 .bioBody {
    margin: 60px auto;
@@ -43,9 +56,7 @@ menu:hover {
    margin: 50px auto;
    max-width: 150px;
 }
-.bio {
-   font-size: 18px;
-}
+
 .footer-bar {
    background-color: red;
    margin-top: 100px;
@@ -66,4 +77,11 @@ menu:hover {
 }
 .canadian-distributor {
    padding-top: 65px;
+}
+.datasheet-list {
+   padding-left: 300px;
+}
+.products {
+   border-radius: 15px;
+   margin: 20px;
 }
