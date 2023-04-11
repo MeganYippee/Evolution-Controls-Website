@@ -1,6 +1,7 @@
 body {
    font-size: 18px;
    margin: 0 auto;
+   overflow-x: hidden;
 }
 a {
    color: black;
@@ -26,27 +27,27 @@ li {
    max-width: 550px;
 }
 
+::-webkit-scrollbar {
+   width: 12px;
+}
+::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+   background: #888;
+   border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+   background: #555;
+   transition: ease-in-out 150ms;
+}
+
 .photo-carousel {
    text-align: center;
    margin: 0 auto;
    max-width: 75%;
 }
-.menuLogo {
-   max-width: 200px;
-}
-.menu {
-   border-radius: 15px;
-   font-family: "Noto Sans JP", sans-serif;
-   padding: 30px 70px;
-   margin: 10px;
-}
-.menu:hover {
-   background-color: #e7e7e7;
-   transition: ease-in-out 200ms;
-}
-.menu-title {
-   padding-top: 10px;
-}
+
 .bioBody {
    margin: 60px auto;
    max-width: 700px;
@@ -57,18 +58,6 @@ li {
    max-width: 150px;
 }
 
-.footer-bar {
-   background-color: red;
-   margin-top: 100px;
-   padding: 10px;
-}
-.footer {
-   background-color: black;
-   color: white;
-   padding: 70px;
-   margin: 0 auto;
-   text-align: center;
-}
 .distributor-bio {
    max-width: 380px;
 }

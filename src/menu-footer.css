@@ -1,0 +1,61 @@
+.menuLogo {
+   display: inline;
+   max-width: 250px;
+   padding: 15px;
+   position: absolute;
+}
+.menu {
+   border-radius: 15px;
+   padding: 25px 70px;
+   margin: 10px;
+}
+.menu:hover {
+   background-color: #e7e7e7;
+   transition: ease-in-out 200ms;
+}
+.menu-title {
+   font-family: "Noto Sans JP", sans-serif;
+   padding-top: 10px;
+}
+.dropdown {
+   float: left;
+   overflow: hidden;
+}
+.dropbtn {
+   background-color: inherit;
+   border: none;
+   outline: none;
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   z-index: 1;
+}
+.dropdown-content a {
+   display: block;
+   padding: 12px 16px;
+   text-align: left;
+   text-decoration: none;
+}
+.dropdown-content a:hover {
+   background-color: #c7c6c6;
+   transition: ease-in-out 200ms;
+}
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+.footer-bar {
+   background-color: red;
+   margin-top: 100px;
+   padding: 10px;
+}
+.footer {
+   background-color: black;
+   color: white;
+   padding: 70px;
+   margin: 0 auto;
+   text-align: center;
+}
