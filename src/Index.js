@@ -12,3 +12,11 @@ menu.innerHTML = `
          <a class="col menu-title" href="distributors.html">Distributors</a>
          <a class="col menu-title" href="tech-support.html">Tech Support</a>
          <a class="col menu-title" href="applications.html">Applications</a>`;
+
+let footer = document.querySelector(`.footer`);
+footer.innerHTML = ` <p>
+            © Evolution Controls Inc. Poway, CA, USA <br />
+            Last update: December 2022 <br />
+            Tech Support: (858) 748-7359 <br />
+            Comments: sales@gotoevo.com
+         </p>`;

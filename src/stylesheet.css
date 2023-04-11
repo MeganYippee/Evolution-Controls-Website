@@ -29,13 +29,13 @@ li {
 .photo-carousel {
    text-align: center;
    margin: 0 auto;
-   max-width: 85%;
+   max-width: 75%;
 }
 .menuLogo {
    max-width: 200px;
 }
 .menu {
-   border-radius: 10px;
+   border-radius: 15px;
    font-family: "Noto Sans JP", sans-serif;
    padding: 30px 70px;
    margin: 10px;
