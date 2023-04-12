@@ -1,29 +1,34 @@
 let menu = document.querySelector(".nav-bar");
 menu.innerHTML = `
 <div class="row menu">
-         <a class="col menu-title" href="index.html">Home</a>
+<img
+         class=" col menuLogo"
+         src="src/photos/New+Logo.png"
+         alt="Evolution Controls Logo"
+      />
+         <a class="col menu-title" href="index.html">HOME</a>
           <div class="col menu-title dropdown">
-    <button class="dropbtn"> Products ▼
+    <button class="dropbtn"> PRODUCTS ▼
     </button>
     <div class="dropdown-content">
-      <a href="#">Pro Series</a>
-      <a href="#">Wireless Series</a>
-      <a href="#">EC Motor Controls</a>
-      <a href="#">HVAC Automation</a>
-      <a href="#">Accessories and Cables</a>
-      <a href="#">Sales Support</a>
+      <a href="#">PRO SERIES</a>
+      <a href="#">WIRELESS SERIES</a>
+      <a href="#">EC MOTOR CONTROLS</a>
+      <a href="#">HVAC AUTOMATION</a>
+      <a href="#">ACCESSROIES AND CABLES</a>
+      <a href="#">SALES SUPPORT</a>
     </div>
   </div> 
-         <a class="col menu-title" href="new-products.html">New Products</a>
-         <a class="col menu-title" href="datasheets.html">Datasheets</a>
-         <a class="col menu-title" href="distributors.html">Distributors</a>
-         <a class="col menu-title" href="tech-support.html">Tech Support</a>
+         <a class="col menu-title" href="new-products.html">NEW PRODUCTS</a>
+         <a class="col menu-title" href="datasheets.html">DATASHEETS</a>
+         <a class="col menu-title" href="distributors.html">DISTRIBUTORS</a>
+         <a class="col menu-title" href="tech-support.html">TECH SUPPORT</a>
          <span class="col menu-title dropdown">
-    <a class="dropbtn">Applications ▼
+    <a class="dropbtn">APPLICATIONS ▼
     </a>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
+      <a href="#">APPLICATIONS</a>
+      <a href="#">GUIDE SPECS</a>
     </div>
   </span>
   </div> `;

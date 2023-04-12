@@ -1,8 +1,6 @@
 .menuLogo {
    display: inline;
    max-width: 250px;
-   padding: 15px;
-   position: absolute;
 }
 .menu {
    border-radius: 15px;
@@ -19,7 +17,6 @@
 }
 .dropdown {
    float: left;
-   overflow: hidden;
 }
 .dropbtn {
    background-color: inherit;
@@ -27,11 +24,12 @@
    outline: none;
 }
 .dropdown-content {
-   display: none;
-   position: absolute;
    background-color: #f9f9f9;
-   min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   display: none;
+   font-size: 15px;
+   min-width: 160px;
+   position: absolute;
    z-index: 1;
 }
 .dropdown-content a {
