@@ -11,12 +11,12 @@ menu.innerHTML = `
     <button class="dropbtn"> PRODUCTS ▼
     </button>
     <div class="dropdown-content">
-      <a href="#">PRO SERIES</a>
-      <a href="#">WIRELESS SERIES</a>
-      <a href="#">EC MOTOR CONTROLS</a>
-      <a href="#">HVAC AUTOMATION</a>
-      <a href="#">ACCESSROIES AND CABLES</a>
-      <a href="#">SALES SUPPORT</a>
+      <a href="products-sub-pages/pro-series.html">PRO SERIES</a>
+      <a href="products-sub-pages/wireless-series.html">WIRELESS SERIES</a>
+      <a href="products-sub-pages/ec-motor-controls.html">EC MOTOR CONTROLS</a>
+      <a href="products-sub-pages/hvac-automation">HVAC AUTOMATION</a>
+      <a href="products-sub-pages/accessories-cables.html">ACCESSORIES AND CABLES</a>
+      <a href="products-sub-pages/sales-support.html">SALES SUPPORT</a>
     </div>
   </div> 
          <a class="col menu-title" href="new-products.html">NEW PRODUCTS</a>
@@ -27,8 +27,8 @@ menu.innerHTML = `
     <a class="dropbtn">APPLICATIONS ▼
     </a>
     <div class="dropdown-content">
-      <a href="#">APPLICATIONS</a>
-      <a href="#">GUIDE SPECS</a>
+      <a href="applications-sub-pages/applications.html">APPLICATIONS</a>
+      <a href="applications-sub-pages/guide-specs">GUIDE SPECS</a>
     </div>
   </span>
   </div> `;
