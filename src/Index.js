@@ -1,8 +1,8 @@
-let menu = document.querySelector(".nav-bar");
-menu.innerHTML = `
+let navBar = document.querySelector(".nav-bar");
+navBar.innerHTML = `
 <div class="row menu">
 <img
-         class=" col menuLogo"
+         class="col menuLogo"
          src="src/photos/New+Logo.png"
          alt="Evolution Controls Logo"
       />
@@ -28,7 +28,7 @@ menu.innerHTML = `
     </a>
     <div class="dropdown-content">
       <a href="applications-sub-pages/applications.html">APPLICATIONS</a>
-      <a href="applications-sub-pages/guide-specs">GUIDE SPECS</a>
+      <a href="applications-sub-pages/guide-specs.html">GUIDE SPECS</a>
     </div>
   </span>
   </div> `;
