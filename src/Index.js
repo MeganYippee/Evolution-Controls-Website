@@ -14,7 +14,7 @@ navBar.innerHTML = `
       <a href="products-sub-pages/pro-series.html">PRO SERIES</a>
       <a href="products-sub-pages/wireless-series.html">WIRELESS SERIES</a>
       <a href="products-sub-pages/ec-motor-controls.html">EC MOTOR CONTROLS</a>
-      <a href="products-sub-pages/hvac-automation">HVAC AUTOMATION</a>
+      <a href="products-sub-pages/hvac-automation.html">HVAC AUTOMATION</a>
       <a href="products-sub-pages/accessories-cables.html">ACCESSORIES AND CABLES</a>
       <a href="products-sub-pages/sales-support.html">SALES SUPPORT</a>
     </div>
