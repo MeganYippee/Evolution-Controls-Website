@@ -12,6 +12,13 @@ a:hover {
    color: #ff0000;
    transition: ease-in-out 200ms;
 }
+.btn {
+   background-color: #4e4e4e;
+   border-radius: 30px;
+}
+.btn:hover {
+   background-color: #2c2c2c;
+}
 p {
    text-align: center;
    font-size: 18px;
@@ -19,6 +26,11 @@ p {
 h1 {
    font-family: "Overpass", sans-serif;
    font-weight: 700;
+   text-align: center;
+}
+h2 {
+   font-family: "Raleway", sans-serif;
+   font-size: 40px;
    text-align: center;
 }
 li {
@@ -76,4 +88,11 @@ li {
 }
 .product-description {
    padding-bottom: 40px;
+}
+.faq {
+   font-family: "Raleway", sans-serif;
+   font-size: 19px;
+   font-weight: 300;
+   margin: auto;
+   width: 35%;
 }
