@@ -1,39 +1,22 @@
-doctype html
-head
-  meta(charset='UTF-8')
-  meta(http-equiv='X-UA-Compatible' content='IE=edge')
-  meta(name='viewport' content='width=device-width, initial-scale=1.0')
-  title Evolution Controls Inc.
-  link(rel='icon' type='image/x-icon' href='src/photos/EVO logo.jpg')
-  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous')
-  link(rel='preconnect' href='https://fonts.googleapis.com')
-  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
-  link(href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap' rel='stylesheet')
-  link(href='https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Overpass:wght@900&display=swap' rel='stylesheet')
-  link(href='https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap' rel='stylesheet')
-  link(rel='stylesheet' href='src/stylesheet.css')
-  link(rel='stylesheet' href='src/menu-footer.css')
+extends ./templates/mainLayout.pug
 
-.nav-bar
-.photo-carousel
-  .photo1
-    img(src='src/photos/Modbus BACnet Interface_Page_1.png' alt='' style='width: 95%')
-.bioBody
-  img.logo(src='src/photos/EVOMark 512x512.png' alt='Evolution Controls Inc.')
-  p.bio
-    | Evolution Controls Inc. is the leader for over 25 years in providing
-    | control solutions for the energy-efficient EC (Electronically
-    | Commutated) Motors Market. These motors have proven energy savings
-    | when used in Commercial and Residential applications. We carry an
-    | innovative line of EC Motor controls giving you access to energy
-    | savings like never before. Using our controls, a service technician
-    | can field adjust the EC Motor&apos;s air volume setpoint. Our controls
-    | also interface the EC Motor to automation systems and other types of
-    | automatic controls.
-  p.bio
-    | Our PC software and mobile apps are for communicating with our
-    | control products only. We do not collect any data from the users&rsquo;
-    | devices.
-.footer-bar
-footer.footer
-script(src='src/index.js')
+block content
+	.photo-carousel
+		.photo1
+			img(src='src/photos/Modbus BACnet Interface_Page_1.png' alt='' style='width: 95%')
+	.bioBody
+		img.logo(src='src/photos/EVOMark 512x512.png' alt='Evolution Controls Inc.')
+		p.bio
+			| Evolution Controls Inc. is the leader for over 25 years in providing
+			| control solutions for the energy-efficient EC (Electronically
+			| Commutated) Motors Market. These motors have proven energy savings
+			| when used in Commercial and Residential applications. We carry an
+			| innovative line of EC Motor controls giving you access to energy
+			| savings like never before. Using our controls, a service technician
+			| can field adjust the EC Motor's air volume setpoint. Our controls
+			| also interface the EC Motor to automation systems and other types of
+			| automatic controls.
+		p.bio
+			| Our PC software and mobile apps are for communicating with our
+			| control products only. We do not collect any data from the users’
+			| devices.
