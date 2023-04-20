@@ -18,7 +18,7 @@ jobs:
           BASE_URL: /Evolution-Controls-Website/
         run: |
           npm ci
-          npm run build
+          node build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
