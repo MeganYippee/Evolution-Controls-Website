@@ -2,14 +2,12 @@ const glob = require('glob');
 const pug = require('pug');
 const fs = require('fs');
 
-const allPugFiles = glob.globSync('**/*.pug');
+const pugDirectory = 'pug-src';
+
+const allPugFiles = glob.globSync(`${pugDirectory}/**/*.pug`);
 
 for (const pugFile of allPugFiles) {
-	if (pugFile.startsWith('templates')) {
-		continue;
-	}
-
 	const result = pug.compileFile(pugFile)();
-	const htmlFile = pugFile.replace(/.pug$/, '.html');
+	const htmlFile = pugFile.replace(/.pug$/, '.html').substring(pugDirectory.length + 1);
 	fs.writeFileSync(htmlFile, result, { encoding: 'utf-8' });
 }
