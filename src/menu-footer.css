@@ -2,6 +2,9 @@
    display: inline;
    max-width: 250px;
 }
+.nav-bar {
+   margin: 20px;
+}
 .menu {
    border-radius: 15px;
    padding: 25px 70px;
