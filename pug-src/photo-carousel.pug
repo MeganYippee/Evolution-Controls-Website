@@ -1,5 +1,5 @@
 extends ../templates/mainLayout.pug
-
+    	script(href=baseUrl + 'src=/photo-carousel.js')
 
 block content
     .slideshow-container
@@ -26,4 +26,3 @@ block content
         span.dot(onclick='currentSlide(2)')
         span.dot(onclick='currentSlide(3)')
 
-    	script(href=baseUrl + 'src=/photo-carousel.js')
