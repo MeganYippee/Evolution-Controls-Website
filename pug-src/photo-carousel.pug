@@ -1,5 +1,6 @@
 extends ../templates/mainLayout.pug
 
+
 block content
     .slideshow-container
         // Full-width images with number and caption text
@@ -25,5 +26,4 @@ block content
         span.dot(onclick='currentSlide(2)')
         span.dot(onclick='currentSlide(3)')
 
-    	script.
-		    src/photo-carousel.js
+    	script(href=baseUrl + 'src=/photo-carousel.js')
