@@ -1,9 +1,7 @@
 extends ../templates/mainLayout.pug
 
 block content
-	.photo-carousel
-		.photo1
-			img(src=baseUrl + 'src/photos/Modbus BACnet Interface_Page_1.png' alt='' style='width: 95%')
+	include includes/photo-carousel.pug
 	.bioBody
 		img.logo(src=baseUrl + 'src/photos/EVOMark 512x512.png' alt='Evolution Controls Inc.')
 		p.bio
