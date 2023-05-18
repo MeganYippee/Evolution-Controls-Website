@@ -58,7 +58,7 @@
 .numbertext {
    color: #f2f2f2;
    font-size: 12px;
-   object-fit: contain;
+   object-fit: scale-down;
    padding: 8px 12px;
    position: relative;
    top: 0;
