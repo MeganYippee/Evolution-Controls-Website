@@ -4,8 +4,8 @@
 
 /* Slideshow container */
 .slideshow-container {
-   max-width: 1500px;
    margin: auto;
+   max-width: 1200px;
    position: relative;
 }
 
@@ -47,7 +47,6 @@
 .numbertext {
    color: #f2f2f2;
    font-size: 12px;
-
    padding: 8px 12px;
    position: relative;
    top: 0;
@@ -55,7 +54,6 @@
 
 .carousel-image {
    object-fit: scale-down;
-   height: 650px;
 }
 
 /* The dots/bullets/indicators */
