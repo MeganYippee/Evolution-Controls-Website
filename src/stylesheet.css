@@ -61,10 +61,12 @@ li {
    margin: 0 auto;
    max-width: 75%;
 }
-
 .bioBody {
    margin: 60px auto;
    max-width: 700px;
+}
+.bio-heading {
+   margin: 0 auto;
 }
 .logo {
    display: block;
