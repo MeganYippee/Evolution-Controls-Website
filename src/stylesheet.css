@@ -66,7 +66,7 @@ li {
    max-width: 700px;
 }
 .bio-heading {
-   margin: 0 auto;
+   text-align: center;
 }
 .logo {
    display: block;
