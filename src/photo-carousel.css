@@ -52,8 +52,10 @@
    top: 0;
 }
 
-.carousel-image {
-   object-fit: fill;
+.carousel-image img {
+   height: 650px;
+   width: 100%;
+   object-fit: contain;
 }
 
 /* The dots/bullets/indicators */
