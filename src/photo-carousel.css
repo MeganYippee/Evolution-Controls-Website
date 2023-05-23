@@ -4,9 +4,9 @@
 
 /* Slideshow container */
 .slideshow-container {
-   margin: auto;
-   max-width: 1200px;
+   max-width: 1000px;
    position: relative;
+   margin: auto;
 }
 
 /* Hide the images by default */
@@ -53,7 +53,7 @@
 }
 
 .carousel-image {
-   object-fit: scale-down;
+   object-fit: fill;
 }
 
 /* The dots/bullets/indicators */
