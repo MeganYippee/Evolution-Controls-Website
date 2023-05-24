@@ -1,6 +1,28 @@
 extends ../../templates/mainLayout.pug 
 
-block content 
+block content
     br
     br
     h1 PRO Series
+    br
+    .row
+        .col
+            img(src='' alt='')
+        .col.product-description
+            ul
+                li Equipment manufacturer can download preconfigured custom profile to PRO series controls
+            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+                | learn more
+    br
+    .row
+        .col
+            img(src='' alt='')
+        .col.product-description
+            h5 EVO/™IF-TOOL (Interface Tool)
+            ul
+                li USB connection to PC
+                li Serial Connection to PRO series controls
+                li Automatically provides power when the connected PRO series control is not powered.
+                li Version is 4.1.420
+            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+                | download software
