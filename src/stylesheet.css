@@ -40,7 +40,6 @@ h3 {
 }
 li {
    padding: 6px;
-   list-style: none;
    max-width: 550px;
 }
 
@@ -96,6 +95,9 @@ li {
 .product-description {
    padding-bottom: 40px;
 }
+.product-subheading {
+   max-width: 650px;
+}
 .faq {
    font-family: "Raleway", sans-serif;
    font-size: 19px;
@@ -109,11 +111,4 @@ li {
 }
 .contact-info {
    max-width: 650px;
-}
-.back-top {
-   color: white;
-   background-color: aquamarine;
-}
-.back-top:hover {
-   background-color: rgb(27, 126, 93);
 }

@@ -4,7 +4,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-   max-width: 1000px;
+   max-width: 1250px;
    position: relative;
    margin: auto;
 }
@@ -53,7 +53,7 @@
 }
 
 .carousel-image img {
-   height: 650px;
+   height: 700px;
    width: 100%;
    object-fit: contain;
 }
