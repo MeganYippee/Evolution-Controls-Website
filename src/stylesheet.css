@@ -112,3 +112,9 @@ li {
 .contact-info {
    max-width: 650px;
 }
+.gif {
+   font-size: 40px;
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+}
