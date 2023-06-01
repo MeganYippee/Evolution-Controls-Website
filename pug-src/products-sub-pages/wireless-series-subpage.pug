@@ -1,8 +1,8 @@
-extends ../../templates/mainLayout.pug 
+extends ../../templates/mainLayout.pug
 
 block content
-    .row.wireless-subpage
-        .col
+    .row
+        .col.wireless-subpage
             img(src="", alt="BCU Img")
             h5 EVO/ECM-BCU BLUETOOTH® CONTROL UNIT
             ul
@@ -16,17 +16,21 @@ block content
                     |Get the control app Evo Devices on Google Play Store and the Apple App Store now.
             a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
                 |datasheet
-        .col
+        .col.wireless-subpage
             img(src="", alt="android app screenshots")
             img(src="", alt="apple app screenshots")
             h5 EVO DEVICES ANDROID AND IPHONE CONTROL APPS
             p Get the control app Evo Devices on Google Play Store and the Apple App Store now.
             a(href="")
-                img(src="../photos/photo-images/android-google-play.png", alt="google play store")
+                img.app-store(src="../src/photos/product-images/android-google-play.png", alt="android play store")
             a(href="")
-                img(src="", alt="apple app store")
-        .col
-            img(src="", alt="BT Config to comp")
+                img.app-store(src="../src/photos/product-images/apple-app-store.png", alt="apple app store")
+            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+                |android guide
+            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+                |iphone guide
+        .col.wireless-subpage
+            img(src="../src/photos/product-images/ECM-BCU-S0.png", alt="BT Config to comp")
             ul
                 li
                     |Custom factory configuration
@@ -34,7 +38,7 @@ block content
                     |Archiving master configuration
                 li
                     |Quick downloading a master configuration to ECM-BCUs
-            a(href="")
+            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
                 |bt configurator download
-            a(href="")
+            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
                 |bt configurator user guide
