@@ -5,6 +5,9 @@
    padding: 10px;
    max-width: 200px;
 }
-.bcu-s0 {
-   max-width: 400px;
+.wireless-images {
+   display: block;
+   margin: 0 auto;
+   max-width: 350px;
+   padding: 40px 0;
 }
