@@ -42,8 +42,9 @@ h3 {
    font-size: 35px;
 }
 li {
-   padding: 6px;
+   padding: 12px 0;
    max-width: 450px;
+   list-style: none;
 }
 
 ::-webkit-scrollbar {
@@ -89,7 +90,7 @@ li {
    padding-top: 65px;
 }
 .datasheet-list {
-   padding-left: 300px;
+   padding-left: 500px;
 }
 .products {
    border-radius: 15px;
