@@ -13,6 +13,7 @@ a:hover {
    transition: ease-in-out 200ms;
 }
 .btn {
+   border-radius: 50px;
    font-variant-caps: petite-caps;
    font-size: 18px;
    text-align: center;
