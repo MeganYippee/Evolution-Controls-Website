@@ -99,6 +99,10 @@ li {
 .product-description {
    padding-bottom: 40px;
 }
+.product-photos {
+   float: right;
+   max-width: 450px;
+}
 .product-subheading {
    max-width: 650px;
 }
