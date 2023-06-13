@@ -5,6 +5,9 @@
    padding: 10px;
    max-width: 200px;
 }
+.app-screen {
+   float: right;
+}
 .wireless-images {
    display: block;
    margin: 0 auto;
