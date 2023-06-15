@@ -102,7 +102,7 @@ li {
 .product-photos {
    float: right;
    max-width: 400px;
-   padding-bottom: 50px;
+   padding: 0 30px 50px 0;
 }
 .product-subheading {
    max-width: 650px;
