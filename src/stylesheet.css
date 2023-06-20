@@ -19,8 +19,8 @@ a:hover {
    text-align: center;
    background-color: #4e4e4e;
    margin: 0 auto;
-   max-width: 200px;
-   padding: 10px 15px;
+   max-width: 300px;
+   padding: 5px 10px;
    position: relative;
 }
 .btn:hover {
