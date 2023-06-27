@@ -124,8 +124,9 @@ li {
    max-width: 650px;
 }
 .gif {
-   font-size: 40px;
+   border-radius: 50px;
    display: block;
    text-align: center;
    margin: 0 auto;
+   max-width: 1250px;
 }
