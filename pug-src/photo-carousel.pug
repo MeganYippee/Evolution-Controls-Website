@@ -2,17 +2,21 @@ block content
     .slideshow-container
         // Full-width images with number and caption text
         .mySlides.fade
-            .numbertext 1 / 3
+            .numbertext 1 / 4
                 .carousel-image
                     img(src=baseUrl + '../src/photos/carousel/Modbus BACnet Interface_Page_1.png' alt='photo 1')
         .mySlides.fade
-            .numbertext 2 / 3
+            .numbertext 2 / 4
                 .carousel-image
-                    img(src=baseUrl + 'src/photos/web front page.png' alt='photo 2')
+                    img(src=baseUrl + '../src/photos/carousel/New Product Banner Edit.jpg' alt='photo 2')
         .mySlides.fade
-            .numbertext 3 / 3
+            .numbertext 3 / 4
                 .carousel-image
-                    img(src=baseUrl + 'src/photos/New+Logo.png' alt='photo 3')
+                    img(src=baseUrl + 'src/photos/carousel/web front page.png' alt='photo 3')
+        .mySlides.fade
+            .numbertext 4 / 4
+                .carousel-image
+                    img(src=baseUrl + 'src/photos/carousel/EVO_Lab_Ref_BCU_original.png' alt='photo 4')
         // Next and previous buttons
         a.prev(onclick='plusSlides(-1)') ❮
         a.next(onclick='plusSlides(1)') ❯
@@ -22,6 +26,7 @@ block content
         span.dot(onclick='currentSlide(1)')
         span.dot(onclick='currentSlide(2)')
         span.dot(onclick='currentSlide(3)')
+        span.dot(onclick='currentSlide(4)')
 
     script
         include ../src/photo-carousel.js
