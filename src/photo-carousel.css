@@ -18,7 +18,7 @@
 .prev,
 .next {
    border-radius: 0 3px 3px 0;
-   color: white;
+   color: black;
    cursor: pointer;
    font-weight: bold;
    font-size: 18px;
