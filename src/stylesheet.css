@@ -142,3 +142,8 @@ li {
 .modbus {
    max-width: 600px;
 }
+.irc-image {
+   display: block;
+   margin: 0 auto;
+   max-width: 300px;
+}
