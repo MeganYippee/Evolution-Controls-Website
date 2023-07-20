@@ -49,9 +49,9 @@
    display: block;
 }
 .footer-bar {
-   background-color: red;
+   background-color: rgb(255, 15, 0);
    margin-top: 100px;
-   padding: 10px;
+   padding: 15px;
 }
 .footer {
    background-color: black;
