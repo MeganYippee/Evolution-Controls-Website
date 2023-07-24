@@ -2,22 +2,26 @@ block content
     .slideshow-container
         // Full-width images with number and caption text
         .mySlides.fade
-            .numbertext 1 / 4
+            .numbertext 1 / 5
                 .carousel-image
-                    img(src=baseUrl + '../src/photos/carousel/Modbus BACnet Interface_Page_1.png' alt='photo 1')
+                    img(src=baseUrl + '../src/photos/carousel/Evo_Pro_Series-V2.png' alt='photo 1')
         .mySlides.fade
-            .numbertext 2 / 4
+            .numbertext 2 / 5
+                .carousel-image
+                    img(src=baseUrl + '../src/photos/carousel/Modbus BACnet Interface_Page_1.png' alt='photo 2')
+        .mySlides.fade
+            .numbertext 3 / 5
                 .carousel-image
                     a(href=baseUrl + 'new-products.html')
-                        img(src=baseUrl + '../src/photos/carousel/New Product Banner Edit.jpg' alt='photo 2')
+                        img(src=baseUrl + '../src/photos/carousel/New Product Banner Edit.jpg' alt='photo 3')
         .mySlides.fade
-            .numbertext 3 / 4
+            .numbertext 4 / 5
                 .carousel-image
-                    img(src=baseUrl + 'src/photos/carousel/web front page.png' alt='photo 3')
+                    img(src=baseUrl + 'src/photos/carousel/web front page.png' alt='photo 4')
         .mySlides.fade
-            .numbertext 4 / 4
+            .numbertext 5 / 5
                 .carousel-image
-                    img(src=baseUrl + 'src/photos/carousel/EVO_Lab_Ref_BCU_original.png' alt='photo 4')
+                    img(src=baseUrl + 'src/photos/carousel/EVO_Lab_Ref_BCU_original.png' alt='photo 5')
         // Next and previous buttons
         a.prev(onclick='plusSlides(-1)') ❮
         a.next(onclick='plusSlides(1)') ❯
@@ -28,6 +32,7 @@ block content
         span.dot(onclick='currentSlide(2)')
         span.dot(onclick='currentSlide(3)')
         span.dot(onclick='currentSlide(4)')
+        span.dot(onclick='currentSlide(5)')
 
     script
         include ../src/photo-carousel.js
