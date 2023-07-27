@@ -6,7 +6,7 @@
    max-width: 200px;
 }
 .app-screen {
-   float: right;
+   max-width: 200px;
 }
 .wireless-images {
    display: block;
