@@ -5,37 +5,46 @@ block head
 
 block content
     .row
-        .col.wireless-subpage
+        .col
             img.wireless-images(src="../src/photos/wireless-subpage/Bluetooth_Control-unit-zoomed.JPG", alt="BCU Img")
+        .col
+        .col.app
+            img.app-screen(src="../src/photos/wireless-subpage/Device Detail Alarm android.jpg", alt="android app screenshots")
+        .col.app
+            img.app-screen(src="../src/photos/wireless-subpage/Device Detail Alarm iphone.PNG", alt="apple app screenshots")
+        .col
+        .col
+            img.wireless-images(src="../src/photos/wireless-subpage/ECM-BCU-S0.png", alt="BT Config to comp")
+           
+    .row
+        .col.wireless-subpage
             h5 EVO/ECM-BCU BLUETOOTH® CONTROL UNIT
             ul
                 li
-                    |System solution for small cleanroom fan filter arrays· Indoor air filter units for schools and hospitals
+                        |System solution for small cleanroom fan filter arrays· Indoor air filter units for schools and hospitals
                 li
-                    |Whole house fans
+                        |Whole house fans
                 li
-                    |Fan installed at hard-to-reach locations
+                        |Fan installed at hard-to-reach locations
                 li
-                    |Get the control app Evo Devices on Google Play Store and the Apple App Store now.
-            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+                        |Get the control app Evo Devices on Google Play Store and the Apple App Store now.
+            a.btn.btn-secondary.button(href=baseUrl + 'new-products.html' type='button')
                 |datasheet
-        .col.wireless-subpage
-            .col
-                img.wireless-images.app-screen(src="../src/photos/wireless-subpage/Device Detail Alarm android.jpg", alt="android app screenshots")
-            .col
-                img.wireless-images.app-screen(src="../src/photos/wireless-subpage/Device Detail Alarm iphone.PNG", alt="apple app screenshots")
+            
+        .col
             h5 EVO DEVICES ANDROID AND IPHONE CONTROL APPS
             p Get the control app Evo Devices on Google Play Store and the Apple App Store now.
-            a(href="")
-                img.app-store(src="../src/photos/wireless-subpage/android-google-play.png", alt="android play store")
-            a(href="")
-                img.app-store(src="../src/photos/wireless-subpage/apple-app-store.png", alt="apple app store")
-            a.btn.btn-secondary.products(href='//drive.google.com/file/d/1VhcCq08Do_jKyaMfhcuiZ2iqHvJA2O5D/view?usp=sharing' target='_blank' type='button')
+            .col-4
+                a(href="")
+                    img.app-store(src="../src/photos/wireless-subpage/android-google-play.png", alt="android play store")
+            .col-4
+                a(href="")
+                    img.app-store(src="../src/photos/wireless-subpage/apple-app-store.png", alt="apple app store")
+            a.btn.btn-secondary.button(href='//drive.google.com/file/d/1VhcCq08Do_jKyaMfhcuiZ2iqHvJA2O5D/view?usp=sharing' target='_blank' type='button')
                 |android guide
-            a.btn.btn-secondary.products(href='//drive.google.com/file/d/1UyE1vJ42CP3vA4MjkpYsFiuWKfwfN0Jy/view?usp=sharing' target='_blank' type='button')
+            a.btn.btn-secondary.button(href='//drive.google.com/file/d/1UyE1vJ42CP3vA4MjkpYsFiuWKfwfN0Jy/view?usp=sharing' target='_blank' type='button')
                 |iphone guide
         .col.wireless-subpage
-            img.wireless-images(src="../src/photos/wireless-subpage/ECM-BCU-S0.png", alt="BT Config to comp")
             ul
                 li
                     |Custom factory configuration
@@ -43,7 +52,7 @@ block content
                     |Archiving master configuration
                 li
                     |Quick downloading a master configuration to ECM-BCUs
-            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+            a.btn.btn-secondary.button(href=baseUrl + 'new-products.html' type='button')
                 |bt configurator download
-            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
+            a.btn.btn-secondary.button(href=baseUrl + 'new-products.html' type='button')
                 |bt configurator user guide
