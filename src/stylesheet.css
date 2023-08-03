@@ -149,3 +149,8 @@ li {
    margin: 0 auto;
    max-width: 300px;
 }
+.irc-title {
+   align-items: center;
+   margin: 0 auto;
+   text-align: center;
+}
