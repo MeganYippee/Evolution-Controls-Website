@@ -2,6 +2,10 @@
    body {
       margin: 0 auto;
    }
+   p {
+      font-size: 10px;
+      text-align: center;
+   }
 }
 
 body {
