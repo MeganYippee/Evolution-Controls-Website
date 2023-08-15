@@ -1,3 +1,9 @@
+@media screen {
+   body {
+      margin: 0 auto;
+   }
+}
+
 body {
    flex-wrap: wrap;
    font-size: 18px;
@@ -154,4 +160,7 @@ li {
    align-items: center;
    margin: 0 auto;
    text-align: center;
+}
+
+@media screen {
 }
