@@ -1,20 +1,3 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
-   body {
-      margin: 0 auto;
-   }
-   p {
-      font-size: 9px;
-      padding: 0 15px 0 15px;
-      text-align: center;
-   }
-   li {
-      font-size: 9px;
-   }
-   .btn {
-      text-align: center;
-   }
-}
-
 body {
    flex-wrap: wrap;
    font-size: 18px;

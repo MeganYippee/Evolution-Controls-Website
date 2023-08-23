@@ -1,0 +1,14 @@
+body {
+   margin: 0 auto;
+}
+p {
+   font-size: 9px;
+   padding: 0 15px 0 15px;
+   text-align: center;
+}
+li {
+   font-size: 9px;
+}
+.btn {
+   text-align: center;
+}
