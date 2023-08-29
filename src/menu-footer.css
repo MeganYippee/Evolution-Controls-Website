@@ -1,3 +1,9 @@
+@media (max-width: 428px) {
+   .nav-bar {
+      font-size: 15px;
+   }
+}
+
 .menuLogo {
    display: inline;
    max-width: 250px;
