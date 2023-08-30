@@ -2,14 +2,20 @@ body {
    margin: 0 auto;
 }
 p {
-   font-size: 9px;
+   font-size: 11px;
    padding: 0 15px 0 15px;
    text-align: center;
 }
 li {
    font-size: 12px;
 }
+h3 {
+   font-size: 15px;
+}
 .btn {
    text-align: center;
    margin: 0 auto;
+}
+.distributors {
+   width: 100%;
 }
