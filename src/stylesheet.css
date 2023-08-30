@@ -92,14 +92,14 @@ li {
 .datasheet-list {
    padding-left: 450px;
 }
-.product-description {
-   margin-top: 15px;
-   padding-bottom: 40px;
-}
 .product-photos {
    float: right;
    max-width: 400px;
    padding: 15px 30px 50px 0;
+}
+.product-description {
+   margin-top: 15px;
+   padding-bottom: 40px;
 }
 .sub-product-photos {
    margin: auto;
