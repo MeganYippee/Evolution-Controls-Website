@@ -64,6 +64,12 @@ h3 {
    margin: 50px auto;
    max-width: 150px;
 }
+.back-to-top {
+   background-color: rgb(162, 189, 190);
+   margin-top: 10px;
+   border: none;
+   padding: 15px 45px;
+}
 .bio {
    font-size: 13px;
    margin: 10px;
@@ -82,4 +88,5 @@ h3 {
    font-family: "Raleway", sans-serif;
    font-size: 13px;
    font-weight: 300;
+   margin: 10px;
 }
