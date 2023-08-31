@@ -1,9 +1,10 @@
 @media (max-width: 428px) {
    .nav-bar {
+      display: none;
       font-size: 14px;
    }
    .footer {
-      font-size: 10px;
+      font-size: 11px;
    }
 }
 
