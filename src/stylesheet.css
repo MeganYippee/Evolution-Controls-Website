@@ -17,6 +17,7 @@ a:hover {
    border-radius: 70px;
    border: none;
    box-shadow: 2px 2px 3px rgb(167, 166, 166);
+   color: #f1f1f1;
    font-variant-caps: petite-caps;
    font-size: 13px;
    font-family: "Heebo", sans-serif;
