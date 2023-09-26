@@ -5,6 +5,7 @@ img {
    display: block;
    text-align: center;
    margin: 0 auto;
+   padding: 10px;
 }
 a {
    color: black;
@@ -30,6 +31,11 @@ h2 {
 }
 h3 {
    font-size: 18px;
+}
+.gif {
+   border-radius: 25px;
+   max-width: 100%;
+   text-align: center;
 }
 
 ::-webkit-scrollbar {
