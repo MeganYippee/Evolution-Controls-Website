@@ -53,6 +53,7 @@
 }
 
 .carousel-image img {
+   height: 75%;
    width: 95%;
    object-fit: contain;
 }
