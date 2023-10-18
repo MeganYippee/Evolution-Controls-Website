@@ -53,8 +53,11 @@
 }
 
 .carousel-image img {
+   margin: 0 auto;
+   display: block;
    height: 75%;
    width: 95%;
+   text-align: center;
    object-fit: contain;
 }
 
