@@ -53,8 +53,8 @@
 }
 
 .carousel-image img {
-   margin: 0 auto;
    display: block;
+   margin: 0 auto;
    height: 75%;
    width: 95%;
    text-align: center;
