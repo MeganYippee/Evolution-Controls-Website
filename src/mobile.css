@@ -121,3 +121,12 @@ h3 {
    margin-top: 20px;
    padding: 15px 45px;
 }
+
+/*mobile menu bar*/
+.mobile-nav {
+   display: block;
+   height: 40px;
+   width: 100%;
+   background-color: url(photos/mobile-nav-icon.png) no-repeat 98% center;
+   cursor: pointer;
+}
