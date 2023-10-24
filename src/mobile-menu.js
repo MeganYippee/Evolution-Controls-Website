@@ -1,11 +1,13 @@
-const mobileMenu = window.matchMedia("(max-width: 428px)");
+//const mobileMenu = window.matchMedia("(max-width: 428px)");
 
-mobileMenu.addEventListener(handleMobileChange);
+//mobileMenu.addEventListener(handleMobileChange);
 
-function handleMobileChange(e) {
-   if (e.matches) {
-      console.log("Media Query Matched!");
-   }
-}
+//function handleMobileChange() {
+//if (matches) {
+//$(".mobile-nav").on("click", function () {
+//$("header nav ul").toggleClass("open");
+//});
+//}
+//}
 
-handleMobileChange(mobileMenu);
+//handleMobileChange(mobileMenu);
