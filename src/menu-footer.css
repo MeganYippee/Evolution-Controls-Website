@@ -16,8 +16,8 @@
 }
 .menu {
    border-radius: 15px;
-   padding: 25px 70px;
-   margin: 20px;
+   padding: 1% 2%;
+   margin: 1.25%;
 }
 .menu:hover {
    background-color: #e7e7e7;
