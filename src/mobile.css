@@ -125,8 +125,9 @@ h3 {
 /*mobile menu bar*/
 .mobile-nav {
    display: block;
-   height: 40px;
+   height: 10px;
    width: 100%;
-   background-color: url(photos/mobile-nav-icon.png) no-repeat 98% center;
+   background-color: url("../src/photos/mobile-nav-icon.png") no-repeat 98%
+      center;
    cursor: pointer;
 }
