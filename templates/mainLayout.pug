@@ -26,7 +26,8 @@ head
 body
 	.header
 		.nav-bar
-			a.mobile-nav
+			a.mobile-nav.menuLogo
+				img(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
 			.row.menu
 				img.col.menuLogo(src=baseUrl + 'src/photos/New+Logo.png' alt='Evolution Controls Logo')
 				a.col.menu-title(href=baseUrl + 'index.html') HOME
@@ -62,6 +63,6 @@ body
 			|Tech Support: (858) 748-7359 
 			br
 			|Comments: sales@gotoevo.com
-script
+//script
 	include https://code.jquery.com/jquery-1.11.3.min.js
 	include ../src/photo-carousel.js
