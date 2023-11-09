@@ -1,4 +1,4 @@
-//const mobileMenu = window.matchMedia("(max-width: 428px)");
+const mobileMenu = window.matchMedia("(min-width: 428px)");
 
 //mobileMenu.addEventListener(handleMobileChange);
 
