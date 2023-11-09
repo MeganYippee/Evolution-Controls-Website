@@ -26,9 +26,10 @@ head
 body
 	.header
 		.nav-bar
-			a.mobile-nav.menuLogo
-				img(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
+			
 			.row.menu
+				a.col.mobile-nav
+					img.mobileMenu(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
 				img.col.menuLogo(src=baseUrl + 'src/photos/New+Logo.png' alt='Evolution Controls Logo')
 				a.col.menu-title(href=baseUrl + 'index.html') HOME
 				.col.menu-title.dropdown
