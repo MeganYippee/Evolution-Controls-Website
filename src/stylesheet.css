@@ -86,6 +86,11 @@ li {
    max-width: 150px;
 }
 
+.page-numbers {
+   font-size: 25px;
+   text-align: center;
+}
+
 .distributor-bio {
    max-width: 380px;
 }
