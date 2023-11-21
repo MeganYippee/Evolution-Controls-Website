@@ -9,8 +9,8 @@ block content
     h1 EC Motor Controls
     br
     br
-    p.page-numbers
-        a(href=baseUrl + 'products-sub-pages/ec-motor-controls.html' type='button')
+    .col.page-numbers
+        a.current-page(href=baseUrl + 'products-sub-pages/ec-motor-controls.html' type='button')
             |1  .  
         a(href=baseUrl + 'products-sub-pages/ec-motor-controls-pg2.html' type='button')
             |  2  .  
@@ -20,6 +20,7 @@ block content
             |  4
     br
     .row
+        //-1
         .col.product-image
             img.product-photos(src='../src/photos/products-photos/ECM-3PT.JPG' alt='3PT Controller')
         .col.product-description
@@ -36,6 +37,7 @@ block content
     br
     br
     .row
+        //-2
         .col.product-image
             img.product-photos(src='../src/photos/products-photos/4spd_pro.png' alt='4SPD Control')
         .col.product-description
@@ -55,6 +57,7 @@ block content
     br
     br
     .row
+        //-3
         .col.product-image
             img.product-photos(src='../src/photos/products-photos/ACU_PRO.png' alt='4SPD Control')
         .col.product-description
@@ -74,6 +77,7 @@ block content
     br
     br
     .row
+        //-4
         .col.product-image
             img.product-photos(src='../src/photos/wireless-subpage/EVO_Bluetooth.jpg' alt='BCU and app')
         .col.product-description
@@ -84,199 +88,15 @@ block content
             a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1hoW8nfJboAupmKEwaRoGtDzLBBGHumx8/view' target='_blank')
                 | SEE MORE
     br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/CTC Plate.png' alt='CTC Control')
-        .col.product-description
-            h5 EVO/™ECM-CTC (Changeover Temperature Control)
-            ul
-                li Exhaust Fan Control
-                li Whole house fan control
-                li Outside Air Economizer
-                li Discharge Air Temperature Control
-                li Condenser Air Fan Control
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1V3_azrL5EK5nP_BsiEr2Kli0m15qty9-/view' target='_blank')
-                | DATASHEET
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1GUCzCbZy31VqG4Yzgit4NBw2gN3E6BsZ/view' target='_blank')
-                | QUICK GUIDE
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/DPC Cover final.png' alt='DPC Controller')
-        .col.product-description
-            h5 EVO/™ECM-DPC (Differential Air Pressure Control Unit)
-            p.product-subheading 
-                |The EVO/ECM-DPC controls an EC Motor powered fan or actuator to maintain an 
-                |adjustable static or differential air pressure. 
-            p.product-subheading    
-                |Set the air pressure setpoint to the desired pressure. Then 
-                |proportional & integral control technology 
-                |modulates the fan or actuator to maintain setpoint.
-            ul
-                li PWM or 0-+10V Output
-                li 
-                    |Applications: Rooftop Exhaust, Cleanrooms, Ventilation Systems, 
-                    |Modulating Diffuser Systems, Restaurants.
-                li Adjustment range is from Off to 100% of the programmed control range.
-                li A fifth adjustment sets the flow index when no call is selected.
-                li Pilot Pulse Enable/Disable.
-                li PWM or 0-10 V output
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1V6BQqEr0SanGGUoLdIr1CrD-Evnk4pyH/view' target='_blank')
-                | DATASHEET
-            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
-                | MORE ON PRO FEATURES
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/DTC16.jpg' alt='DTC16 Control Unit')
-        .col.product-description
-            ul
-                li EVO/™ECM-DTC16 (Differential Temperature Control Unit)
-                li EVO/™SNS-AA (Thermistor senor used with the EVO/ECM-DTC16)
-            a.btn.btn-secondary.products(href=baseUrl + 'products-sub-pages/ec-motor-controls-sub.html' type='button')
-                | SEE MORE
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/ECM-EHC-0.jpg' alt='EHC Control Unit')
-        .col.product-description
-            h5 EVO/™ECM-EHC (Electric Heater Control Unit)
-            p 0-10 Volt automation interface with low RPM, electric heat cutout.
-            ul
-                li Signal controls motor on/off and output (air volume).
-                li Eliminates troublesome pressure and paddle switches.
-                li The heater only works when the motor is in the correct RPM (speed) range.
-                li Heat cutout on high and low RPM.
-                li Limits track speed setting.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1FFOtsA4Dc4iTvSNg5p4Kd746zS-lHSpJ/view' target='_blank')
-                | DATASHEET
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/GCU wall plate.jpg' alt='DTC16 Control Unit')
-        .col.product-description
-            h5 EVO/™ECM-GCU (Gradual Control Unit)
-            ul
-                li PWM or 0-10VDC universal output
-                li Allows accurate manual adjustment of EC motors and other HVAC and industrial control applications
-                li Compatible with standard single gang box for wall mounting in occupied space
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1612UZzE1_U68OkZEhwuX1ilHtegmAis5/view' target='_blank')
-                | DATASHEET
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/wireless-subpage/Handheld.jpg' alt='IRC Remote')
-        .col.product-description
-            h5 EVO/™IRC-Remote (Infrared Remote Control Unit)
-            h5 EVO/™IRC-Remote Sensor
-            h5 EVO/™ECM-IRC Controller
-            a.btn.btn-secondary.products(href=baseUrl + 'products-sub-pages/wireless-series-subpage.html' type='button')
-                | SEE MORE
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/MDR16.jpg' alt='MDR16 Control Unit')
-        .col.product-description
-            h5 EVO/™ECM-MDR16 (Motor Driver Control Unit)
-            p The EVO/ECM-MDR16 motor driver allows manual adjust, or industry standard 0-10V automation signals to control up to 16 EC Motors.
-            ul
-                li Allows accurate manual adjustment and monitor of fans for up to 16 motors.
-                li Provides local or remote adjustment of the EC Motor output from 1% to 100%.
-                li A signal lamp on the control continuously flashes out the flow index.
-                li Instruments are not required to read the flow index (%).
-                li May also be used for stand-alone manual controls.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1612UZzE1_U68OkZEhwuX1ilHtegmAis5/view' target='_blank')
-                | DATASHEET
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/EVO_ModBus_pt_2.jpg' alt='Modbus Unit')
-        .col.product-description
-            h5 For Fan Filter Units and other applications
-            p EVO/™ECM-MODBUS (Application specific ModBus RTU)
-            p EVO/™MODBUS Configurator (Windows Configurator Tool)
-            p EVO/™ECM-BACnet-Modbus interface library
-            p EVO/™Air Fiddler+ (EC Motor Monitor & Control software)
-            a.btn.btn-secondary.products(href=baseUrl + 'products-sub-pages/modbus-sub.html' type='button')
-                | LEARN MORE
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/ECM Mspd2.png' alt='Mspd2 Control Unit')
-        .col.product-description
-            h5 EVO/™ECM-MSpd (Multi-Speed Controller)
-            ul
-                li Up to 4 Speed Calls over 2 wires 
-                li Isolated Switch Input Protection  
-                li PWM or 0-+10V Output 
-                li Gradual or Fast Speed Change 
-                li Pilot Pulse (Autoswitch) provides a 49us pulse at a minimum and maximum signal so the motor knows the EVO/ECM-MSpd is connected.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1hoW8nfJboAupmKEwaRoGtDzLBBGHumx8/view' target='_blank')
-                | DATASHEET
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/SNV-S1 Front.jpg' alt='SNV Control Unit')
-        .col.product-description
-            h5 EVO/™ECM-SNV-S1 (Severe Environment Control Unit)
-            p The EVO/ECM-SNV allows industry standard 0V to +10V automation signals to 
-                |adjust PWM controlled EC Motors. The device is designed and packaged to 
-                |provide a solution for rooftop machinery and other severe environment applications.
-            p The SNV provides remote adjustment of the motor output from 0% to 100% pwm of 
-                |the motor’s programmed control range.  A signal lamp continuously flashes out 
-                |the percentage of pwm. Instruments are not required to read the output. The signal 
-                |lamp also indicates the EVO/ECM-SNV is powered, the microcontroller is running and 
-                |indicates the control signal in tenths of a Volt.
-            ul
-                li The green lamp continuously indicates the %pwm motor control signal.
-                li Pilot Pulse (Autoswitch) provides a 49us pulse at a minimum and maximum signal so the motor knows the EVO/ECM-SNV is connected.
-                li Pilot pulse detection switches the motor to be controlled by the pilot pulse capable controller for automation and other special applications.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1hoW8nfJboAupmKEwaRoGtDzLBBGHumx8/view' target='_blank')
-                | DATASHEET
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/EVO-ECM-VCU-MP.png' alt='VCU Control Unit')
-        .col.product-description
-            h5 EVO/™ECM-VCU-PRO (Visual Control Unit)
-            p Four-digit LED display alternates between flow index and RPM. Easy to adjust, especially in dark spaces.
-            ul
-                li PWM or 0-10 volts DC outputs
-                li Connect up to two motors
-                li Allows accurate manual adjustment and monitor of fans.
-                li Features a 4-digit LED display to allow easy reading in dark spaces.
-                li Flow index can be set with the screwdriver adjust.
-                li Four display modes for flow indexes and motor RPMs.
-                li Motor speed deviation alarm when controlling two motors
-                li May also be used where automation systems only turn the fan on or off.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1hoW8nfJboAupmKEwaRoGtDzLBBGHumx8/view' target='_blank')
-                | DATASHEET
-            a.btn.btn-secondary.products(href=baseUrl + 'new-products.html' type='button')
-                | MORE ON PRO FEATURES
-    br
-    br
-    .row
-        .col.product-image
-            img.product-photos(src='../src/photos/products-photos/X13_No_Wires.png' alt='X13 Control Unit')
-        .col.product-description
-            h5 EVO/™ECM-X13
-            ul
-                li Allow a 0- +10V signal to step control a Regal Beloit X13 or Endura Pro ECM motor.
-                li Two control sequences to provide the smoothest possible proportional control of the 5 stage ECM motor
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1hoW8nfJboAupmKEwaRoGtDzLBBGHumx8/view' target='_blank')
-                | DATASHEET
-    br
+    .col.page-numbers
+        a.current-page(href=baseUrl + 'products-sub-pages/ec-motor-controls.html' type='button')
+            |1  .  
+        a(href=baseUrl + 'products-sub-pages/ec-motor-controls-pg2.html' type='button')
+            |  2  .  
+        a(href=baseUrl + 'products-sub-pages/ec-motor-controls-pg3.html' type='button')
+            |  3  .  
+        a(href=baseUrl + 'products-sub-pages/ec-motor-controls-pg4.html' type='button')
+            |  4
     br
     .text-center
         a.btn.back-top.back-to-top(href=baseUrl + 'products-sub-pages/ec-motor-controls.html' type='button')
