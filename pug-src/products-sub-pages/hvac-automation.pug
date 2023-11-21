@@ -1,7 +1,7 @@
 extends ../../templates/mainLayout.pug
 
 block head
-    title HVAC Automation — EVOlECMon Controls Inc.
+    title HVAC Automation — Evolution Controls Inc.
 
 block content
     br
@@ -16,6 +16,15 @@ block content
         |While our controls are marketed for EC Motor applications, many can be
         |used in other control applications.
     br
+    .col.page-numbers
+        a.current-page(href=baseUrl + 'products-sub-pages/hvac-automation.html' type='button')
+            |1 &nbsp.  
+        a(href=baseUrl + 'products-sub-pages/hvac-automation-pg2.html' type='button')
+            |&nbsp 2 &nbsp.  
+        a(href=baseUrl + 'products-sub-pages/hvac-automation-pg3.html' type='button')
+            |&nbsp 3 &nbsp.  
+        a(href=baseUrl + 'products-sub-pages/hvac-automation-pg4.html' type='button')
+            |&nbsp 4
     br
     .row
         .col.product-image
