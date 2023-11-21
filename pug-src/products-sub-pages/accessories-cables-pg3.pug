@@ -1,0 +1,116 @@
+extends ../../templates/mainLayout.pug
+
+block head
+    title Accessories, Sensors, and Cables — Evolution Controls Inc.
+
+block content 
+    br
+    br
+    h1 Accessories, Sensors, and Cables
+    br
+    .col.page-numbers
+        a(href=baseUrl + 'products-sub-pages/accessories-cables.html' type='button')
+            |1 &nbsp.  
+        a(href=baseUrl + 'products-sub-pages/accessories-cables-pg2.html' type='button')
+            |&nbsp 2 &nbsp.  
+        a.current-page(href=baseUrl + 'products-sub-pages/accessories-cables-pg3.html' type='button')
+            |&nbsp 3
+    br
+    br
+    h2 Sensors
+    br
+    .row
+        //-10
+        .col.product-image
+            img.product-photos(src='../src/photos/products-photos/DTC Sensor 006.jpg' alt='SNS-AA Thermistor Sensor')
+        .col.product-description
+            h5 EVO/™SNS-AA Thermistor Sensor
+            ul.product-subheading
+                li
+                    |1kΩ NTC thermistor probe for dry and wet pipe applications.
+                li
+                    |Pair with EVO/™ECM-DTC16, Differential Temperature Control, in evaporator fan switch application.
+            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1612UZzE1_U68OkZEhwuX1ilHtegmAis5/view' target='_blank' type='button')
+                |DATASHEET
+    br
+    br
+    h2 Cables
+    br
+    br
+    .row
+        //-11
+        .col.product-image
+            img.product-photos(src='../src/photos/products-photos/ECM-CBL.jpg' alt='CBL')
+        .col.product-description
+            h5 ECM-CBL-?? Cable Assembly  
+            p.product-subheading
+                |Cables are ordered by length (e.g. ECM-CBL-08 = Eight Foot Cable)
+            ul.product-subheading
+                li
+                    |Available for use with EC Control Units.
+                li
+                    |Each cable comes with plenum rated cable material in custom lengths 
+                    |to fit your needs, a connector on one end that hooks directly into the EC Motor, 
+                    |and a connector on the other end that hooks to the EC Control Unit.
+    br
+    .row
+        //-12
+        .col.product-image
+            img.product-photos(src='../src/photos/products-photos/USM-CBL.jpg' alt='USM')
+        .col.product-description
+            h5 USM-CBL-?? Cable Assembly  
+            p.product-subheading
+                |Cables are ordered by length (e.g. USM-CBL-08 = Eight Foot Cable)
+            ul.product-subheading
+                li
+                    |Available for use with EC Control Units.
+                li
+                    |Each cable comes with plenum rated cable material in custom lengths 
+                    |to fit your needs, a connector on one end that hooks directly into 
+                    |the EC Motor, and a connector on the other end that hooks to the EC Control Unit.
+                li
+                    |The motor connector is specifically for the NIDEC U.S. Motors brand.
+    br
+    .row
+        //-13
+        .col.product-image
+            img.product-photos(src='../src/photos/products-photos/EVO_Pigtails.jpg' alt='PIG Cable')
+        .col.product-description
+            h5 ECM-PIG-?? Cable Assembly 
+            p.product-subheading
+                |Cables are ordered by length (e.g. ECM-PIG-08 = Eight Foot Cable) 
+            ul.product-subheading
+                li
+                    |Available to use with EC Control Units
+                li
+                    |Each cable comes with plenum rated cable material in 
+                    |custom length to fit your needs, a connector on one 
+                    |end that hooks to EC Control Unit and the other end is 
+                    |for making pigtail connection, for example, with wires from 
+                    |a Genteq 142R EC motor, see the wiring instruction in the TECH SUPPORT page.
+    br
+    .row
+        //-14
+        .col.product-image
+            img.product-photos(src='../src/photos/products-photos/ECM-PBL.jpg' alt='PBL Cable')
+        .col.product-description
+            h5 ECM-PBL-?? Power Cable Assembly
+            p.product-subheading
+                |Cables are ordered by length (e.g ECM-PBL-08 = Eight Foot Power Cable)
+            ul.product-subheading
+                li
+                    |Each cable comes in lengths to fit your needs, a connector on one 
+                    |end that hooks directly into the ECM Motor (red jumper wire may be 
+                    |clipped out for 220V operation), and bare stripped wires on the other 
+                    |end to be hooked into power.
+    br
+    .col.page-numbers
+        a(href=baseUrl + 'products-sub-pages/accessories-cables.html' type='button')
+            |1 &nbsp.  
+        a(href=baseUrl + 'products-sub-pages/accessories-cables-pg2.html' type='button')
+            |&nbsp 2 &nbsp.  
+        a.current-page(href=baseUrl + 'products-sub-pages/accessories-cables-pg3.html' type='button')
+            |&nbsp 3
+    .text-center
+        a.btn.btn-secondary.back-to-top(href=baseUrl + 'products-sub-pages/accessories-cables-pg3.html' type='button')
+            |back to top
