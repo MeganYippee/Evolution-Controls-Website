@@ -24,17 +24,28 @@ a:hover {
    box-shadow: 2px 2px 3px rgb(167, 166, 166);
    color: #f1f1f1;
    font-variant-caps: petite-caps;
-   font-size: 13px;
-   font-family: "Heebo", sans-serif;
-   font-weight: 500;
+   font-size: 15px;
+   font-family: "Sometype Mono", monospace;
+   font-weight: 600;
    text-align: center;
    background-color: #4e4e4e;
+   letter-spacing: 1px;
    margin: 0 15px 0 0;
    padding: 10px 20px;
    position: relative;
 }
 .btn:hover {
    background-color: rgb(31, 31, 31);
+}
+.back-to-top {
+   background-color: rgb(162, 189, 190);
+   border: none;
+   font-size: 25px;
+   margin-top: 80px;
+   padding: 10px 35px;
+}
+.back-to-top:hover {
+   background-color: rgb(111, 132, 133);
 }
 
 h1 {
@@ -146,16 +157,6 @@ li {
    text-align: center;
    margin: 0 auto;
    max-width: 75%;
-}
-.back-to-top {
-   background-color: rgb(162, 189, 190);
-   border: none;
-   font-size: 20px;
-   margin-top: 80px;
-   padding: 15px 45px;
-}
-.back-to-top:hover {
-   background-color: rgb(111, 132, 133);
 }
 .modbus {
    max-width: 600px;
