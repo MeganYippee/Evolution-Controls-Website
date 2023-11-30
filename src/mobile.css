@@ -87,7 +87,7 @@ h3 {
 }
 .back-to-top:hover {
    background-color: rgb(111, 132, 133);
-   color: white;
+   color: rgb(38, 59, 78);
 }
 .logo {
    display: block;
