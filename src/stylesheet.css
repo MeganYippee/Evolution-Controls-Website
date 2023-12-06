@@ -36,6 +36,7 @@ a:hover {
 }
 .btn:hover {
    background-color: rgb(31, 31, 31);
+   transition: ease-in-out 200ms;
 }
 .back-to-top {
    background-color: rgb(162, 189, 190);
@@ -137,6 +138,7 @@ li {
    max-width: 650px;
 }
 .faq {
+   border-radius: 20px;
    font-family: "Raleway", sans-serif;
    font-size: 21px;
    font-weight: 300;
@@ -144,13 +146,27 @@ li {
    margin-right: 30%;
    width: 30%;
 }
+.faq:hover {
+   background-color: #e4e4e4;
+   transition: ease-in-out 300ms;
+}
+
 .contact {
    font-family: "Raleway", sans-serif;
-   padding-top: 100px;
+   padding-top: 5%;
+   padding-left: 20%;
 }
 .contact-info {
-   max-width: 650px;
+   max-width: 70%;
 }
+.contact-image {
+   display: block;
+   float: right;
+   text-align: center;
+   border-radius: 15px;
+   width: 80%;
+}
+
 .gif {
    border-radius: 50px;
    display: block;
