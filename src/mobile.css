@@ -123,11 +123,26 @@ h3 {
    font-size: 13px;
 }
 .faq {
+   border-radius: 20px;
    font-family: "Raleway", sans-serif;
    font-size: 14px;
    font-weight: 300;
    margin: 10px;
 }
+.faq:hover {
+   background-color: #e4e4e4;
+   transition: ease-in-out 300ms;
+}
+
+.contact-image {
+   display: block;
+   float: right;
+   text-align: center;
+   border-radius: 15px;
+   margin-top: 15px;
+   width: 150px;
+}
+
 .back-to-top {
    background-color: rgb(162, 189, 190);
    border: none;
