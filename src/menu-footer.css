@@ -2,6 +2,33 @@
    .nav-bar {
       font-size: 14px;
    }
+   #nav-links {
+      display: none;
+   }
+   a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+   }
+   a:hover {
+      background-color: #ddd;
+      color: black;
+   }
+   .icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+   }
+   /* Style the active link (or home/logo) */
+   .active {
+      background-color: #04aa6d;
+      color: white;
+   }
+
    .footer {
       font-size: 11px;
    }

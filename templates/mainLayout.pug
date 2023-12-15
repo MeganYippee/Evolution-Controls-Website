@@ -24,10 +24,7 @@ head
 body
 	.header
 		.nav-bar
-			
 			.row.menu
-				a.col.mobile-nav
-					img.mobileMenu(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
 				img.col.menuLogo(src=baseUrl + 'src/photos/New+Logo.png' alt='Evolution Controls Logo')
 				a.col.menu-title(href=baseUrl + 'index.html') HOME
 				.col.menu-title.dropdown
@@ -43,12 +40,13 @@ body
 				a.col.menu-title(href=baseUrl + 'datasheets.html') DATASHEETS
 				a.col.menu-title(href=baseUrl + 'distributors.html') DISTRIBUTORS
 				a.col.menu-title(href=baseUrl + 'tech-support.html') TECH SUPPORT
-
 				span.col.menu-title.dropdown
 					a.dropbtn APPLICATIONS ▼
 					.dropdown-content
 						a(href=baseUrl + 'applications-sub-pages/applications.html') APPLICATIONS
 						a(href=baseUrl + 'applications-sub-pages/guide-specs.html') GUIDE SPECS
+				a.col.mobile-nav.icon(href='javascript:void(0);' onclick='myFunction()')
+					img.mobileMenu(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
 
 	block content
 
