@@ -24,7 +24,7 @@ head
 body
 	.header
 		.nav-bar
-			.row.menu
+			.row.menu#nav-links
 				img.col.menuLogo(src=baseUrl + 'src/photos/New+Logo.png' alt='Evolution Controls Logo')
 				a.col.menu-title(href=baseUrl + 'index.html') HOME
 				.col.menu-title.dropdown
@@ -45,8 +45,8 @@ body
 					.dropdown-content
 						a(href=baseUrl + 'applications-sub-pages/applications.html') APPLICATIONS
 						a(href=baseUrl + 'applications-sub-pages/guide-specs.html') GUIDE SPECS
-				a.col.mobile-nav.icon(href='javascript:void(0);' onclick='myFunction()')
-					img.mobileMenu(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
+			a.col.mobile-nav.icon(href='javascript:void(0);' onclick='myFunction()')
+				img.mobileMenu(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
 
 	block content
 
