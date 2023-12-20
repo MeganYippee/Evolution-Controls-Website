@@ -1,4 +1,8 @@
 @media (max-width: 428px) {
+   .topnav {
+      overflow: hidden;
+      position: relative;
+   }
    .nav-bar {
       font-size: 14px;
    }
@@ -6,18 +10,13 @@
       display: none;
    }
    a {
-      color: white;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
       display: block;
    }
-   a:hover {
-      background-color: #ddd;
-      color: black;
-   }
    .icon {
-      background: black;
+      background: rgb(175, 175, 175);
       display: block;
       position: absolute;
       right: 0;
@@ -37,9 +36,6 @@
 .menuLogo {
    display: inline;
    max-width: 250px;
-}
-.nav-bar {
-   margin: 20px;
 }
 .menu {
    border-radius: 15px;

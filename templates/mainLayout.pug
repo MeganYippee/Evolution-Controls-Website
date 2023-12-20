@@ -23,9 +23,10 @@ head
 
 body
 	.header
-		.nav-bar
-			.row.menu#nav-links
+		.topnav
+			.row.menu
 				img.col.menuLogo(src=baseUrl + 'src/photos/New+Logo.png' alt='Evolution Controls Logo')
+			#nav-links
 				a.col.menu-title(href=baseUrl + 'index.html') HOME
 				.col.menu-title.dropdown
 					button.dropbtn PRODUCTS ▼
@@ -46,7 +47,7 @@ body
 						a(href=baseUrl + 'applications-sub-pages/applications.html') APPLICATIONS
 						a(href=baseUrl + 'applications-sub-pages/guide-specs.html') GUIDE SPECS
 			a.col.mobile-nav.icon(href='javascript:void(0);' onclick='myFunction()')
-				img.mobileMenu(src=baseUrl + 'src/photos/mobile-nav-icon.png' alt='mobile menu icon')
+				i.mobileMenu.fa-solid.fa-bars
 
 	block content
 
@@ -60,6 +61,4 @@ body
 			|Tech Support: (858) 748-7359 
 			br
 			|Comments: sales@gotoevo.com
-//-script
-	include https://code.jquery.com/jquery-1.11.3.min.js
-	include ../src/photo-carousel.js
+	script(src='https://kit.fontawesome.com/a5f3a35235.js' crossorigin='anonymous')
