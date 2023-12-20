@@ -9,7 +9,7 @@ for making pigtail connection, for example, with wires from
 a Genteq 142R EC motor, see the wiring instruction in the TECH SUPPORT page.</li></ul></div></div><br><div class="row"><div class="col product-image"><img class="product-photos" src="../src/photos/products-photos/ECM-PBL.jpg" alt="PBL Cable"></div><div class="col product-description"><h5>ECM-PBL-?? Power Cable Assembly</h5><p class="product-subheading">Cables are ordered by length (e.g ECM-PBL-08 = Eight Foot Power Cable)</p><ul class="product-subheading"><li>Each cable comes in lengths to fit your needs, a connector on one 
 end that hooks directly into the ECM Motor (red jumper wire may be 
 clipped out for 220V operation), and bare stripped wires on the other 
-end to be hooked into power.</li></ul></div></div><br><div class="col page-numbers"><a href="/Evolution-Controls-Website/products-sub-pages/accessories-cables.html" type="button">1 &nbsp.  </a><a href="/Evolution-Controls-Website/products-sub-pages/accessories-cables-pg2.html" type="button">&nbsp 2 &nbsp.  </a><a class="current-page" href="/Evolution-Controls-Website/products-sub-pages/accessories-cables-pg3.html" type="button">&nbsp 3</a></div><div class="text-center"><a class="btn btn-secondary back-to-top" href="/Evolution-Controls-Website/products-sub-pages/accessories-cables-pg3.html" type="button">back to top</a></div><div class="footer-bar"></div><footer class="footer"><p>© Evolution Controls Inc. Poway, CA, USA <br>Last update: November 2023 <br>Tech Support: (858) 748-7359 <br>Comments: sales@gotoevo.com</p></footer><script src="https://kit.fontawesome.com/a5f3a35235.js" crossorigin="anonymous"></script><script>function myFunction() {
+end to be hooked into power.</li></ul></div></div><br><div class="col page-numbers"><a href="/Evolution-Controls-Website/products-sub-pages/accessories-cables.html" type="button">1 &nbsp.  </a><a href="/Evolution-Controls-Website/products-sub-pages/accessories-cables-pg2.html" type="button">&nbsp 2 &nbsp.  </a><a class="current-page" href="/Evolution-Controls-Website/products-sub-pages/accessories-cables-pg3.html" type="button">&nbsp 3</a></div><div class="text-center"><a class="btn btn-secondary back-to-top" href="/Evolution-Controls-Website/products-sub-pages/accessories-cables-pg3.html" type="button">back to top</a></div><div class="footer-bar"></div><footer class="footer"><p>© Evolution Controls Inc. Poway, CA, USA <br>Last update: November 2023 <br>Tech Support: (858) 748-7359 <br>Comments: sales@gotoevo.com</p></footer><script src="https://kit.fontawesome.com/a5f3a35235.js" crossorigin="anonymous"></script><script>function displayLinks() {
    var x = document.getElementById("nav-links");
    if (x.style.display === "block") {
       x.style.display = "none";
@@ -17,4 +17,22 @@ end to be hooked into power.</li></ul></div></div><br><div class="col page-numbe
       x.style.display = "block";
    }
 }
+
+function myFunction(x) {
+   if (x.matches) {
+      // If media query matches
+      console.log(navLinks.getAttribute("id"));
+   } else {
+      document.body.style.backgroundColor = "pink";
+   }
+}
+
+const navLinks = document.getElementById("nav-links");
+var x = window.matchMedia("(min-width: 428px)");
+
+myFunction(x);
+
+x.addEventListener("change", function () {
+   myFunction(x);
+});
 </script></body>
