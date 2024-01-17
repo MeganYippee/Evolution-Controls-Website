@@ -146,11 +146,6 @@ li {
    margin-right: 30%;
    width: 30%;
 }
-.faq:hover {
-   background-color: #e4e4e4;
-   transition: ease-in-out 300ms;
-}
-
 .contact {
    font-family: "Raleway", sans-serif;
    padding-top: 5%;
@@ -191,4 +186,31 @@ li {
 .guide-specs {
    margin-left: 40%;
    text-align: center;
+}
+
+/*Collapsible*/
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+   color: #444;
+   cursor: pointer;
+   padding: 18px;
+   border: none;
+   text-align: left;
+   font-weight: bold;
+   outline: none;
+   font-size: 17px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+   background-color: #ccc;
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+   font-size: 15px;
+   padding: 0 18px;
+   background-color: white;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
 }
