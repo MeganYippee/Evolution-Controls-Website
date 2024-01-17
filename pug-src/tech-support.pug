@@ -73,116 +73,53 @@ block content
     h2 FAQs
     .row
         .col.faq
-            p
-                strong Q.
-                |Does Evolution Controls sell Motors?
-                br
-                br
-                strong A.
-                |No. OEM’s (Original Equipment Mfgs.) please contact Regal Beloit (https:/www.regalbeloit.com/). 
-                |Replacement motors and/or Upgrade Energy-Saving Retrofit Kits are available through 
-                |Gexpro at 
-                br
-                |+1 (513) 326-2134 in the US or BSR at +1(905) 670-3229 in Canada.
-                hr
-            p
-                strong Q.
-                |What is the ECM-BCU, Bluetooth® control,
-                |pairing passkey for EVO Devices mobile app?
-                br
-                br
-                strong A. 529413
-                hr
-            p
-                strong Q.
-                |What is the ECM-BCU, Bluetooth® control,
-                |pairing passkey for EVO Devices mobile app?
-                br
-                br
-                strong A. 529413
-                hr
-            p
-                strong Q.
-                |Can I buy controls from Evolution Controls?
-                br
-                br
-                strong A.
-                |Yes, if you are a bona fide equipment
-                |manufacturer. Contractors, end users and others needing
-                |Evolution Controls’ Products should contact Gexpro at +1 (513)
-                |326-2134 in the US or BSR at +1(905) 670-3229 in Canada.
-                hr
-            p
-                strong Q.
-                |Can I use Evolution’s EC Motor controls on any EC Motor?
-                br
-                br
-                strong A.
-                |No, the motor has to be programmed for
-                |Vspd mode. Most EC Motors are custom programmed by the
-                |equipment manufacturer. Many, especially in residential
-                |applications are not programmed for Vspd mode. Please contact
-                |Evolution Controls Inc. at (858) 748-7359 to find out if the
+            button.collapsible(type='button') Q: Does Evolution Controls sell Motors?
+            .content
+                p A: No. OEM’s (Original Equipment Mfgs.) please contact Regal Beloit (https:/www.regalbeloit.com/). Replacement motors and/or Upgrade Energy-Saving Retrofit Kits are available through Gexpro at +1 (513) 326-2134 in the US or BSR at +1(905) 670-3229 in Canada.
+            hr
+            button.collapsible(type='button') Q: What is the ECM-BCU, Bluetooth® control, pairing passkey for EVO Devices mobile app?
+            .content
+                p A: 529413
+            hr
+            button.collapsible(type='button') Q: Can I buy controls from Evolution Controls?
+            .content
+                p A: Yes, if you are a bona fide equipment manufacturer and contractors, call us at +1(858)748-7359. For end users, and others needing Evolution Controls’ Products should contact Gexpro at +1 (513) 326-2100 in the US or BSR at +1(905) 670-3229 in Canada.
+            hr
+            button.collapsible(type='button') Q: Can I use Evolution’s EC Motor controls on any EC Motor?
+            .content
+                p A: No, the motor has to be programmed for Vspd mode. Most EC Motors are custom programmed by the equipment manufacturer. Many, especially in residential applications are not programmed for Vspd mode. Please contact Evolution Controls Inc. at (858) 748-7359 to find out if the
                 |motor you are interested in will work with our controls.
-                hr
-            p
-                strong Q.
-                |Can I Vspd control an RB X13 motor?
+            hr
+            button.collapsible(type='button') Q: Can I Vspd control an RB X13 motor?
+            .content
+                p A: Maybe. These motors are Vspd enabled for in-house testing by equipment manufacturers, and for a very few commercial applications. Most X13s in production equipment will not be Vspd enabled. Be careful not to develop a Vspd application for an X13, just to find out you will not be allowed to use it in production!
+                |Our EVO™/ECM-X13 controller allows a 0- +10V signal to step control a Regal Beloit X13 or Endura Pro ECM motor.
+            hr
+            button.collapsible(type='button') Q: What are the Evolution Controls standard control cable pinouts?
+            .content
+                p A: The standard pinout is 4 pins on an Amp MTA 100 header. Notice the solder pad (back of PC board) for the pins have three round pads and one square pad. The square pad is pin 1.
                 br
                 br
-                strong A.
-                |Maybe. These motors are Vspd enabled for
-                |in-house testing by equipment manufacturers, and for a very
-                |few commercial applications. Most X13s in production equipment
-                |will not be Vspd enabled. Be careful not to develop a Vspd
-                |application for an X13, just to find out you will not be
-                |allowed to use it in production!
+                |Go = Pin 1, Status = Pin 2, Common = Pin 3, and Vspd = Pin4.
                 br
                 br
-                |Our EVO™/ECM-X13 controller allows a 0- +10V signal to step
-                |control a Regal Beloit X13 or Endura Pro ECM motor.
-                hr
-            p
-                strong Q.
-                |What are the Evolution Controls standard control cable pinouts?
+                |Go = White, Status = Black, Common = Green, and Vspd = Red.
                 br
                 br
-                strong A.
-                |The standard pinout is 4 pins on an Amp
-                |MTA 100 header. Notice the solder pad (back of PC board) for
-                |the pins have three round pads and one square pad. The square
-                |pad is pin 1.
+                |Go isused by some motors to signal the motor to run.
                 br
                 br
-                | Go = Pin 1, Status = Pin 2, Common = Pin 3, and Vspd = Pin4. 
-                br
-                | Go = White, Status = Black, Common = Green, and Vspd = Red. 
-                br
-                | Go isused by some motors to signal the motor to run.
-                br
-                br
-                | Status is an output from the motor that lights the red
+                |Status is an output from the motor that lights the red
                 |lamp on the EVO control and provides tachometer pulses to
                 |those EVO products having RPM feedback. Make sure the status
                 |output is programmed RPM only for EVO products having RPM
                 |feedback. Common is the common for the other three pins. Vspd
                 |is a PWM signal with 12.5ms duration and 22Vdc peak voltage
                 |for most EVO/ECM controls. Some special variations exist.
-                hr
-            p
-                strong Q.
-                | Why does my EVO/ECM-VCU display have
-                | strange numbers where there should be an RPM reading?
-                br
-                br
-                strong A.
-                |This problem is most often because the
-                |status output (Flag 7 for RB’s ECM 2.3 motor) is not
-                |programmed to RPM only. However, if your VCU reads 8888, this
-                |will occur the first three times the control is powered up as
-                |a factory test for the LED's and will disappear after a few
-                |seconds. After the third power-up, this will not occur again.
-                hr
+            hr
+            button.collapsible(type='button') Q: Why does my EVO/ECM-VCU display have strange numbers where there should be an RPM reading?
+            .content
+                p A: This problem is most often because the status output (Flag 7 for RB’s ECM 2.3 motor) is not programmed to RPM only. However, if your VCU reads 8888, this will occur the first three times the control is powered up as a factory test for the LED's and will disappear after a few seconds. After the third power-up, this will not occur again.
     .row.contact
         .col
             img.contact-image(src='src/photos/tech-support/Tech-suport.jpg' alt='tech support')
@@ -201,3 +138,6 @@ block content
     .text-center
         a.btn.btn-secondary.back-to-top(href=baseUrl + 'tech-support.html' type='button')
             | Back to Top
+
+    script
+        include ../src/collapsible-qa.js
