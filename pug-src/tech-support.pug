@@ -9,67 +9,6 @@ block content
     h1 Tech Support
     br
     br
-    .row
-        .col
-            img.product-photos(src='../src/photos/tech-support/ECM-VCU.JPG' alt='VCU Control')
-        .col.product-description
-            h5 EC MOTOR CONTROL TEST PROCEDURE
-            h6 High Voltage Volt Test
-            p
-                | Perform this test in addition to all tests and practices
-                | prescribed by the equipment manufacturer and your professional
-                | training.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1RHpw4koym_uj-pLssRBPq-IQQ3MtiJFt/view?usp=sharing' target='_blank')
-                | READ EC MOTOR CONTROL TEST PROCEDURE
-    br
-    .row
-        .col
-            img.product-photos(src='../src/photos/tech-support/EF.png' alt='Schematics')
-        .col.product-description
-            h5 ELECTRICAL INTERFERENCE FROM HVAC RELAYS
-            p
-                | Most relays used in HVAC machines allow low voltage 24Vac
-                | circuits to control high voltage, high current devices like
-                | motors and electric heating elements. These relays need
-                | special attention so they do not interfere with electronic
-                | devices inside or near the HVAC machine.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1WwbPhbSdp4Pt-QLveJcHRoVn4oDAmD5d/view' target='_blank')
-                | MORE ABOUT ELECTRICAL INTERFERENCE PREVENTION
-    br
-    .row
-        .col
-            img.product-photos(src='../src/photos/products-photos/EVO_Pigtails.jpg' alt='pig tail cable')
-        .col.product-description
-            h5 MOTOR CONTROL CABLE ASSEMBLY
-            p
-                | This drawing shows the components and tools for fabricating 
-                |a control cable compatible with the TE Connectivity/AMP 640456-4 
-                |4-Pin motor control header on most of our EC Motor controls.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1WwbPhbSdp4Pt-QLveJcHRoVn4oDAmD5d/view' target='_blank')
-                | VIEW DRAWING
-    br
-    .row
-        .col
-            img.product-photos(src='../src/photos/tech-support/PWM.JPG' alt='PWM Protocol Schematics')
-        .col.product-description
-            h5 EVO™/PWM-PROTOCOL SCHEMATIC
-            p
-                | Standard For Electrically Isolated Control of Motors, Drives,
-                | Heaters and other High Voltage Equipment.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1tLoF-i_J4fvMRKcCAAcWtX0lvSIABVgF/view' target='_blank')
-                | VIEW SCHEMATIC
-    br
-    .row
-        .col
-            img.product-photos(src='../src/photos/tech-support/EVO_Motor_Box.jpg' alt='')
-        .col.product-description
-            h5 GENTEQ® 142R WIRING
-            p
-                | This article covers the wiring between the EVO/ TM EC motor
-                | controllers and the Genteq® 142R motor for modulating motor
-                | speed control.
-            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1TItk5nj0tw4JMJqtdhmvwin22S4XfXcE/view?usp=sharing' target='_blank')
-                | READ MORE
     h2 FAQs
     .row
         .col.faq
@@ -87,8 +26,7 @@ block content
             hr
             button.collapsible(type='button') Q: Can I use Evolution’s EC Motor controls on any EC Motor?
             .content
-                p A: No, the motor has to be programmed for Vspd mode. Most EC Motors are custom programmed by the equipment manufacturer. Many, especially in residential applications are not programmed for Vspd mode. Please contact Evolution Controls Inc. at (858) 748-7359 to find out if the
-                |motor you are interested in will work with our controls.
+                p A: No, the motor has to be programmed for Vspd mode. Most EC Motors are custom programmed by the equipment manufacturer. Many, especially in residential applications are not programmed for Vspd mode. Please contact Evolution Controls Inc. at (858) 748-7359 to find out if the motor you are interested in will work with our controls.
             hr
             button.collapsible(type='button') Q: Can I Vspd control an RB X13 motor?
             .content
@@ -120,6 +58,46 @@ block content
             button.collapsible(type='button') Q: Why does my EVO/ECM-VCU display have strange numbers where there should be an RPM reading?
             .content
                 p A: This problem is most often because the status output (Flag 7 for RB’s ECM 2.3 motor) is not programmed to RPM only. However, if your VCU reads 8888, this will occur the first three times the control is powered up as a factory test for the LED's and will disappear after a few seconds. After the third power-up, this will not occur again.
+            br
+            br
+    .row
+        .col.product-image
+            img.product-photos(src='../src/photos/tech-support/EF.png' alt='Schematics')
+        .col.product-description
+            h5 ELECTRICAL INTERFERENCE FROM HVAC RELAYS
+            p
+                | Most relays used in HVAC machines allow low voltage 24Vac
+                | circuits to control high voltage, high current devices like
+                | motors and electric heating elements. These relays need
+                | special attention so they do not interfere with electronic
+                | devices inside or near the HVAC machine.
+            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1WwbPhbSdp4Pt-QLveJcHRoVn4oDAmD5d/view' target='_blank')
+                | MORE ABOUT ELECTRICAL INTERFERENCE PREVENTION
+    br
+    .row
+        .col.product-image
+            img.product-photos(src='../src/photos/products-photos/EVO_Pigtails.jpg' alt='pig tail cable')
+        .col.product-description
+            h5 MOTOR CONTROL CABLE ASSEMBLY
+            p
+                |This drawing shows the components and tools for fabricating 
+                |a control cable compatible with the TE Connectivity/AMP 640456-4 
+                |4-Pin motor control header on most of our EC Motor controls.
+            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1WwbPhbSdp4Pt-QLveJcHRoVn4oDAmD5d/view' target='_blank')
+                | VIEW DRAWING
+    br
+    .row
+        .col.product-image
+            img.product-photos(src='../src/photos/tech-support/PWM.JPG' alt='PWM Protocol Schematics')
+        .col.product-description
+            h5 EVO™/PWM-PROTOCOL SCHEMATIC
+            p
+                | Standard For Electrically Isolated Control of Motors, Drives,
+                | Heaters and other High Voltage Equipment.
+            a.btn.btn-secondary.products(href='https://drive.google.com/file/d/1tLoF-i_J4fvMRKcCAAcWtX0lvSIABVgF/view' target='_blank')
+                | VIEW SCHEMATIC
+    br
+
     .row.contact
         .col
             img.contact-image(src='src/photos/tech-support/Tech-suport.jpg' alt='tech support')
