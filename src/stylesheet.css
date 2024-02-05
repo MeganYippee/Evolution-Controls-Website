@@ -4,6 +4,9 @@ body {
    margin: 0 auto;
    overflow-x: hidden;
 }
+.coder {
+   color: white;
+}
 a {
    color: black;
    text-align: center;
