@@ -1,9 +1,9 @@
 function displayLinks() {
-   var x = document.getElementById("nav-links");
+   var x = document.getElementById("nav-links-mobile");
    if (x.style.display === "block") {
       x.style.display = "none";
    } else {
-      x.style.display = "block";
+      x.style.display = "flex";
    }
 }
 

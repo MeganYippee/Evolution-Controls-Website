@@ -29,7 +29,27 @@ body
 			.row.menu
 				a(href=baseUrl + 'index.html')
 					img.menuLogo(src=baseUrl + 'src/photos/New+Logo.png' alt='Evolution Controls Logo')
-				#nav-links
+				#nav-links-desktop
+					a.col.menu-title(href=baseUrl + 'index.html') HOME
+					.col.menu-title.dropdown
+						button.dropbtn PRODUCTS ▼
+						.dropdown-content
+							a(href=baseUrl + 'products-sub-pages/pro-series.html') PRO SERIES
+							a(href=baseUrl + 'products-sub-pages/wireless-series.html') WIRELESS SERIES
+							a(href=baseUrl + 'products-sub-pages/ec-motor-controls.html') EC MOTOR CONTROLS
+							a(href=baseUrl + 'products-sub-pages/hvac-automation.html') HVAC AUTOMATION
+							a(href=baseUrl + 'products-sub-pages/accessories-cables.html') ACCESSORIES AND CABLES
+							a(href=baseUrl + 'products-sub-pages/sales-support.html') SALES SUPPORT
+					a.col.menu-title(href=baseUrl + 'new-products.html') NEW PRODUCTS
+					a.col.menu-title(href=baseUrl + 'datasheets.html') DATASHEETS
+					a.col.menu-title(href=baseUrl + 'distributors.html') DISTRIBUTORS
+					a.col.menu-title(href=baseUrl + 'tech-support.html') TECH SUPPORT
+					span.col.menu-title.dropdown
+						a.dropbtn APPLICATIONS ▼
+						.dropdown-content
+							a(href=baseUrl + 'applications-sub-pages/applications.html') APPLICATIONS
+							a(href=baseUrl + 'applications-sub-pages/guide-specs.html') GUIDE SPECS
+				#nav-links-mobile
 					a.col.menu-title(href=baseUrl + 'index.html') HOME
 					.col.menu-title.dropdown
 						button.dropbtn PRODUCTS ▼
