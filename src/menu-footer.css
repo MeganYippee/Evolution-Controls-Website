@@ -1,13 +1,14 @@
 #nav-links-mobile {
    display: none;
-   background-color: red;
 }
 
 #nav-links-desktop {
    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
 
-@media (max-width: 428px) {
+@media (max-width: 600px) {
    .topnav {
       overflow: hidden;
       position: relative;
@@ -15,13 +16,15 @@
    .nav-bar {
       font-size: 14px;
    }
-   
+
    #nav-links-desktop {
       display: none;
    }
 
    #nav-links-mobile {
       display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
    }
 
    a {
