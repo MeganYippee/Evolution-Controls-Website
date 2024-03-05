@@ -3,9 +3,11 @@
 }
 
 #nav-links-desktop {
+   font-size: 16px;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-around;
+   margin: 1.25%;
 }
 
 @media (max-width: 600px) {
@@ -55,12 +57,6 @@
 .menuLogo {
    display: inline;
    max-width: 250px;
-}
-.menu {
-   border-radius: 15px;
-   font-size: 16px;
-   padding: 1% 2%;
-   margin: 1.25%;
 }
 .menu:hover {
    background-color: #e7e7e7;
