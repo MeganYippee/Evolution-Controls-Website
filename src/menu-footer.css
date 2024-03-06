@@ -8,6 +8,7 @@
    flex-wrap: wrap;
    justify-content: space-around;
    margin: 1.25%;
+   padding: 1%;
 }
 
 @media (max-width: 600px) {
@@ -37,7 +38,7 @@
    }
    .icon {
       background: rgb(175, 175, 175);
-      display: block;
+      display: flex;
       position: absolute;
       margin-left: 50%;
       right: 0;
