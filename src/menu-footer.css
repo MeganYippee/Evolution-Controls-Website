@@ -63,6 +63,9 @@
    background-color: #e7e7e7;
    transition: ease-in-out 200ms;
 }
+.menu-title {
+   padding-top: 1.25%;
+}
 .dropdown {
    float: left;
 }
