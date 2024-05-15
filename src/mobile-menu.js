@@ -15,7 +15,7 @@ function myFunction(x) {
    }
 }
 
-const navLinks = document.getElementById("nav-links");
+const navLinks = document.getElementById("nav-links-mobile");
 var x = window.matchMedia("(min-width: 600px)");
 
 myFunction(x);
