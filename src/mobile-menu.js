@@ -1,5 +1,5 @@
 function displayLinks() {
-   var x = document.getElementById("nav-links-mobile");
+   var x = document.getElementById("navLinks");
    if (x.style.display === "block") {
       x.style.display = "none";
    } else {
@@ -10,12 +10,13 @@ function displayLinks() {
 function myFunction(x) {
    if (x.matches) {
       // If media query matches
-      console.log(navLinks.getAttribute("id"));
+      navLinksDesktop.style.display = "none";
    } else {
    }
 }
 
-const navLinks = document.getElementById("nav-links-mobile");
+const navLinks = document.getElementById("#nav-links-mobile");
+const navLinksDesktop = document.getElementById("#nav-links-desktop");
 var x = window.matchMedia("(min-width: 600px)");
 
 myFunction(x);
