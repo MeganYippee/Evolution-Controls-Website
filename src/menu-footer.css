@@ -29,7 +29,7 @@
    }
 
    #nav-links-mobile {
-      display: flex;
+      display: none;
       flex-direction: column;
       flex-wrap: wrap;
    }
