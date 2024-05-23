@@ -35,7 +35,7 @@
    }
 
    .menuLogoMobile {
-      display: inline;
+      display: flex;
       max-width: 250px;
    }
 
@@ -47,9 +47,8 @@
    }
    .icon {
       background: rgb(175, 175, 175);
-      display: block;
-      position: absolute;
-      margin-left: 50%;
+      display: flex;
+      justify-content: flex-end;
       right: 0;
       top: 0;
    }
