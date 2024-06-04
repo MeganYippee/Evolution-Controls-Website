@@ -16,12 +16,20 @@
 }
 
 @media (max-width: 600px) {
+   .row {
+      margin: 0;
+   }
+
    .topnav {
       overflow: hidden;
       position: relative;
    }
-   .nav-bar {
-      font-size: 14px;
+
+   .topLine {
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+      max-height: 60px;
    }
 
    #nav-links-desktop {
@@ -30,28 +38,27 @@
 
    #nav-links-mobile {
       display: none;
+   }
+   .dropdown {
+      display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 16px;
    }
 
    .menuLogoMobile {
       display: flex;
-      max-width: 250px;
-   }
-
-   a {
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 16px;
-      display: block;
+      padding: 0;
+      max-width: 200px;
    }
    .icon {
       background: rgb(175, 175, 175);
       display: flex;
-      justify-content: flex-end;
-      right: 0;
-      top: 0;
+      justify-content: centers;
+      max-width: 50px;
    }
+
    /* Style the active link (or home/logo) */
    .active {
       background-color: #04aa6d;
