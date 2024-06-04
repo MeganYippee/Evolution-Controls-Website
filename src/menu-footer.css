@@ -38,13 +38,13 @@
 
    #nav-links-mobile {
       display: none;
-   }
-   .dropdown {
-      display: flex;
       flex-direction: column;
+      justify-content: center;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 16px;
+   }
+   .dropdown {
    }
 
    .menuLogoMobile {
@@ -55,7 +55,8 @@
    .icon {
       background: rgb(175, 175, 175);
       display: flex;
-      justify-content: centers;
+      justify-content: center;
+      padding-top: 20px;
       max-width: 50px;
    }
 
