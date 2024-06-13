@@ -6,3 +6,14 @@ function displayLinks() {
       x.style.display = "flex";
    }
 }
+
+function reload() {
+   if (y.matches) {
+      window.location.reload();
+   } else {
+      preventDefault();
+   }
+}
+var y = window.matchMedia("(min-width:601px)");
+
+reload();
