@@ -15,5 +15,3 @@ function reload() {
    }
 }
 var y = window.matchMedia("(min-width:601px)");
-
-reload();
