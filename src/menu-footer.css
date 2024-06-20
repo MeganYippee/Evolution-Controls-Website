@@ -37,6 +37,7 @@
    }
    #nav-links-mobile {
       display: flex;
+      text-decoration: none;
       flex-direction: column;
    }
    .menu a {
